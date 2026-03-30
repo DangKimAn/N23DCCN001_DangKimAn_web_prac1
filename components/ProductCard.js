@@ -1,4 +1,4 @@
-export default function ProductCard({ product , id }) {
+export default function ProductCard({ product }) {
     return (
         <div className="border p-4 rounded-xl shadow-sm hover:shadow-lg transition">
             <img src={product.image} alt={product.title} className="h-48 w-full object-contain mb-4" />
